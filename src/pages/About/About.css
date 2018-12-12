@@ -1,0 +1,41 @@
+.clear-fix {
+  clear: both;
+}
+
+hr {
+  background-color: #000;
+}
+
+.list-div {
+  margin: 0px 0px 16px 40px;
+}
+
+/* make list items responsive along with code in TechSkills.css and SoftSkills.css*/
+ul{margin:0; padding:0;}
+
+#profile-image {
+  float: left;
+  margin-right: 20px;
+  max-height: 235px;
+}
+
+@media (max-width: 480px) {
+  #profile-image {
+    float: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (min-width: 1158px) {
+  #top-hr {
+    display: none;
+  }
+}
+
+@media (min-width: 1249px) {
+  .top-pad {
+    margin-top: 16px;
+  }
+}

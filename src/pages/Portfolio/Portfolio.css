@@ -1,0 +1,51 @@
+.port-card-body {
+  background-color: #6392d1;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px;
+}
+
+.port-row {
+  margin-bottom: 20px;
+}
+
+.card-port {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.card-img-top {
+  max-height: 235px;
+}
+
+.card-port .hover-text {
+  position:absolute;
+  top: 0px;
+  left:0px;
+  display: none;
+}
+  
+.card-port:hover .hover-text {
+width: 100%;
+height: 100%;
+background-color: rgba(12, 11, 11, 0.6);
+color: white;
+display: block;
+}
+
+.hover-text a {
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.skill-port {
+  margin-bottom: 0px;
+  font-weight: bold;
+}
+
+#port-main-card {
+  margin-bottom: 20px;
+  background-color: transparent;
+  border: none;
+}
+

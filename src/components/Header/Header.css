@@ -1,0 +1,37 @@
+.jumbo-text {
+  font-size: 60px;
+  color: #ffffff;
+  text-shadow: 3px 3px 3px #6392d1;
+}
+
+.custom-toggler.navbar-toggler {
+  border-color: rgb(255,255,255);
+}
+
+.card-header, .modal-header {
+background: linear-gradient(to right, #88B7E5, #6392d1);
+}
+
+.contact-body {
+background-color: #DBCAB8;
+}
+
+.contact-link {
+  color: #220c10;
+}
+
+.contact-link:hover {
+  color: #ff1654;
+}
+
+.contact-title {
+  font-weight: bold;
+}
+
+#header{
+  background-color: #220c10;
+}
+
+#name {
+  font-size: 30px;
+}

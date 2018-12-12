@@ -1,0 +1,8 @@
+/* make list items responsive along with ul in About.css */
+#list1 {
+  -webkit-column-width: 150px;
+  -moz-column-width: 150px;
+  -o-column-width: 150px;
+  -ms-column-width: 150px;
+  column-width: 150px;
+}
