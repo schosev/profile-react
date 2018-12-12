@@ -14,7 +14,9 @@ const App = () => (
       <div className="main-div">
       <Switch>
         <Route exact path="/" component={About} />
+        {/* <Route path={process.env.PUBLIC_URL + '/'} component={About} /> */}
         <Route exact path="/portfolio" component={Portfolio} />
+        {/* <Route path={process.env.PUBLIC_URL + '/portfolio'} component={Portfolio} /> */}
       </Switch>
       </div>
 
